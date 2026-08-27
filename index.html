@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>Computer Graphics Rendering</title>
+<meta charset="iso-8859-1">
+<link rel="stylesheet" href="./layout.css" type="text/css">
+<!-- [if lt IE 9]><script src="./html5shiv.js"></script>< -->
+</head>
+<body>
+<a name="Home"></a>    
+
+
+<div class="wrapper row1">
+  <header id="header" class="clear">    
+    <table>
+        <td>
+            <div id="hgroup" align="left">      
+            <h1> Computer Graphics: Rendering</h1>
+            <h2> School of Informatics.</h1>            
+            <h2> Semester I, Autumn 2026</h1>            
+            </div>
+        </td>                
+        <td style='width:150px'>           
+        </td>        
+        <td>            
+           <div id="hgroup" align="right">      
+            <a href = "http://www.ed.ac.uk/informatics">
+                <object align="middle" type="image/png" data="./img/IFLogo.png" width="300px">                    
+                </object>
+            </a>
+            </div>
+        </td>
+    </table>    
+    <nav>
+      <ul>
+        <!-- <li><a href="#Lectures">Lectures</a></li> -->
+        <li><a href="#Schedule">Schedule</a></li>
+        <li><a href="#Reading">Reading</a></li>
+        <li><a href="#Labs">Labs</a></li>        
+        <li><a href="#Coursework">Coursework</a></li>                
+        <li><a href="#Resources">Resources</a></li>        
+        <li class="last"><a href="#Home">Home</a></li>
+      </ul>
+    </nav>    
+  </header>
+</div>
+
+
+<!-- <div class="wrapper row2">    
+    <div id="container" class="clear">        
+         <div class="tcontainer">
+            <div class="ticker-wrap">
+            <div class="ticker-move">
+              <div class="ticker-item"> If you require any clarification regarding syllabus, organisation, coursework, etc. for this course, please contact Kartic before the end of Week 2 </div>
+            <div class="ticker-item">  </div>                
+            </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<div class="wrapper row3">
+    <div id="container" class="clear">        
+     <!-- <h2> Contact </h2> -->
+        <table id="t03">                
+            <tr>
+                <td style="width:20%">Instructor</td>                                
+                <td style="width:50% align:left">Contact hours</td>                                
+            </tr>        
+            <tr>                
+                <td>
+                    <img src="img/KarticCGR26.jpeg" style="height: 96px">
+                </td>            
+                <td>
+                    <table>
+                        <tr>
+                            <td valign="top" style='width:1000px' align="left">            
+                                <ul>
+                                    <li> 50-minute Lectures on Tuesdays and Thursdays, Weeks 1 through 10</li>
+                                    <li> Tuesdays: lectures 13:10-14:00 in Robson Building, Lecture Theatre G.04 </li>
+                                    <li> Thursdays: lectures 13:10-14:00 in Old College, G.159 - MacLaren Stuart Room </li>
+                                    <li> 2-hour Labs on Weeks 3, 5, 8 and 10 in Appleton Tower 4.12. Check your group and schedule </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                    </table>        
+
+                </td>            
+
+            <tr>
+                <td>Kartic Subr</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>      
+            
+        </table>      
+    </div>
+</div>
+
+
+
+
+
+<div class="wrapper row2">    
+    <div id="container" class="clear">        
+        <table>
+            <tr>
+                <td valign="top" style='width:1000px'>            
+                <h2> Course guidelines </h2>
+                    <ul>
+                        <li> Please remember the good scholarly practice requirements of the University regarding work for credit, with guidance and further links  <a target="_blank" href="https://informatics.ed.ac.uk/taught-students/all-students/your-studies/academic-misconduct">here</a>. 
+                         </li>
+                        <li>See the "Coursework Planner" in Learn for the deadline and late policy for this course. Guidance on late submissions (Rule 1) is  <a target="_blank" href="https://informatics.ed.ac.uk/taught-students/all-students/your-studies/late-coursework-extension-requests"> here </a>. </li>                        
+                        <li> A link to the Academic Support offered by the University is <a target="_blank" href="https://www.ed.ac.uk/online-students/academic-support"> here </a></li>                        
+                        </ul>
+                    </td>
+                </tr>
+            </table> 
+                                
+                    </ul>
+                </td>                            
+            </tr>
+        </table>           
+    </div>
+</div>
+
+
+<div class="wrapper row2">    
+    <div id="container" class="clear">        
+
+        <table>
+            <tr>
+                <td valign="top" style='width:1000px'>            
+                <h2> Assessment </h2>
+                    <ul>
+                        <li> There is no exam for this course. </li>
+                        <li> 20 marks for labs: 4 lab assignments, each worth 5 marks. </li>
+                        <li> 80 marks for CW: One programming assignment (C++). The use of AI coding assistants is encouraged. </li>
+                        <li> 20 marks (out of the 80) for coursework will be available as bonus for submitting intermediate checkpoints of modules.</li>
+                        <li> Your bonus marks will depend on the extent of match between the checkpointed code and the final version for those modules. </li>
+                        <li> Final marks will be out of 100 for this course (Labs + Coursework). </li>
+                        </ul>
+                    </td>
+                </tr>
+            </table> 
+                                
+                    </ul>
+                </td>                            
+            </tr>
+        </table>           
+    </div>
+</div>
+
+
+<div class="wrapper row3">
+    <a name="Schedule"></a> 
+        <div id="container" class="clear">
+            <h2> Schedule </h2>
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR2UXWACqNyJHNc9I2hW-haN1ibkIePnvXoimUiJCBt09fxcSnzafnKtbCEF1mIAneH1xy7K0XR1oFo/pubhtml?gid=452810932&single=true"
+                                width="650" height="850" frameborder="0"></iframe>        
+            <!-- https://graphics.cs.utah.edu/courses/cs6610/spring2025/ -->
+        </div>
+</div>
+  
+<!-- Tutorials -->
+<div class="wrapper row3">
+    <a name="Labs"></a>
+    <div id="container" class="clear">        
+    <h2> Labs </h2>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR2UXWACqNyJHNc9I2hW-haN1ibkIePnvXoimUiJCBt09fxcSnzafnKtbCEF1mIAneH1xy7K0XR1oFo/pubhtml?gid=1582225608&single=true"
+                width="540" height="290" frameborder="0"></iframe>
+    </div>
+</div>
+
+<div class="wrapper row3">
+    <a name="Reading"></a> 
+        <div id="container" class="clear">
+        <h2> Reading </h2>
+        <!-- <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTegnkemFwBlR2ErjaTg06H_PykQdyabv-H3AIFqD09hwhXWGFx4EwpuuxNQ_nWMwR0dbAqZihsRmbs/pubhtml?gid=1042959540&single=true"  -->
+                    <!-- width="650" height="450" frameborder="0"></iframe> -->
+        </div>
+    </div>
+</div>
+  
+
+
+
+<div class="wrapper row3">
+
+    <a name="Coursework"></a>
+
+    <div id="container" class="clear">
+
+    <h2> Coursework</h2>    
+        <ul>
+            <!-- <li> The specification document is <a target="_blank" href="https://ksubr.github.io/CGR2025/CGR2025CW.pdf">here</a>. </li> -->
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+
+<!-- Resources-->
+<div class="wrapper row3">
+    <a name="Resources"></a>
+    <div id="container" class="clear">    
+    <table>
+        <tr>        
+            <h2> Books</h2>
+            <p> There is no text book for this course but the following books might help support your learning. You are not expected to purchase these books.  </p>
+            <table style="text-align: left; width: 800px;" border="0" cellpadding="2" cellspacing="2">
+            <tbody>
+            <tr>
+                <td style="vertical-align: top; width: 125px"><img style="width: 100px" alt="" src="./img/PBRBook.jpg"><br>
+                </td>
+                <td style="vertical-align: bottom; width: 535px">
+                <div style="text-align: left;"> Matt Pharr, Greg Humphreys &amp; Wenzel Jakob, <br>
+                </div>
+                <a target="_blank" href="https://www.amazon.co.uk/Physically-Based-Rendering-Theory-Implementation/dp/0128006455/ref=sr_1_1?keywords=physically+based+rendering&qid=1565613622&s=gateway&sr=8-1">
+                <em style="font-weight: bold; width: 300px">Physically Based Rendering (Third edition)</em><br> <br></a>
+                The book is currently freely available 
+                <a target="_blank" href="http://www.pbr-book.org/"><strong> online</strong></a>.
+                <ul>
+                </ul>
+                </td>                
+            </tr>          
+            <tr>
+                <td style="vertical-align: top; width: 125px"><img style="width: 100px" alt="" src="./img/RTWeekend.jpeg"><br>
+                </td>
+                <td style="vertical-align: bottom; width: 535px">
+                <div style="text-align: left;"> Peter Shirley, Trevor David Black &amp; Steve Hollasch, <br>
+                </div>
+                <a target="_blank" href="https://www.amazon.co.uk/Ray-Tracing-Weekend-Minibooks-Book-ebook/dp/B01B5AODD8">
+                <em style="font-weight: bold; width: 300px">Ray tracing in one weekend</em><br> <br></a>
+                The book is currently freely available 
+                <a target="_blank" href="https://raytracing.github.io/books/RayTracingInOneWeekend.html"><strong> online</strong></a>.
+                <ul>
+                </ul>
+                </td>                
+            </tr>          
+            <tr>
+                <td style="vertical-align: top; width: 125px"><img style="width: 100px" alt="" src="./img/FCGbook.jpeg"><br>
+                </td>
+                <td style="vertical-align: bottom; width: 535px">
+                <div style="text-align: left;"> Steve Marschner &amp; Peter Shirley <br>
+                </div>
+                <a target="_blank" href="https://www.amazon.com/Fundamentals-Computer-Graphics-Fourth-Marschner/dp/1482229390">
+                <em style="font-weight: bold; width: 300px">Fundamentals of Computer Graphics</em><br> <br></a>
+                The book is available for free online access  
+                <a target="_blank" href="https://discovered.ed.ac.uk/discovery/fulldisplay?docid=alma9924147654402466&context=L&vid=44UOE_INST:44UOE_VU2&lang=en&search_scope=UoE&adaptor=Local%20Search%20Engine&tab=Everything&query=any,contains,computer%20graphics&facet=searchcreationdate,include,2016%7C,%7C2025&offset=0"><strong> in our library</strong></a>.
+                <ul>
+                </ul>
+                </td>                
+            </tr>          
+            </tbody>
+        </table>      
+        </tr>
+        <tr><td><br/></td></tr>
+        <tr><td><br/></td></tr>
+        <tr> 
+            <h2> Other resources </h2>
+            <ol>
+                <li>Tutorials on <a target="_blank" href="//www.blender.org/support/tutorials/"> Blender</a></li>
+                <li> <a target="_blank" href="http://www.cs.cornell.edu/courses/cs4620/2017sp/">Introduction to computer graphics</a> by Steve Marschner, Cornell University. </li>
+                
+                <!-- <li> <a target="_blank" href="https://canvas.dartmouth.edu/courses/16840">Computer graphics</a> by Wojciech Jarosz, Dartmouth College. </li>            
+                <li> <a target="_blank" href="http://www.cs.cornell.edu/courses/cs4620/2017sp/">Introduction to computer graphics</a> by Steve Marschner, Cornell University. </li>
+                <li> <a target="_blank" href="http://www.cs.cornell.edu/courses/cs5625/2016sp">Interactive computer graphics</a> by Steve Marschner, Cornell University. </li>
+                <li> <a target="_blank" href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-837-computer-graphics-fall-2012/index.htm">Computer graphics</a> by Wojciech Matusik and Fredo Durand, MIT Open Courseware (slightly older - 2012). </li>
+                <li> Lecture notes from Stanford's <a target="blank" href="http://graphics.stanford.edu/courses/cs164-09-spring/">past offering of CS164</a>. Click on 'Lecture Notes' in the left pane. Highly recommended.
+                <li> <a target="_blank" href="http://kesen.realtimerendering.com/">SIGGRAPH (and other graphics) papers</a> over the past few years. </li>                        -->
+            </ol>
+        </tr>                    
+        </table>    
+    </p>    
+    </div>
+</div>
+
+
+
+<!-- Footer -->
+<div class="wrapper rowbottom">
+    <footer id="footer" class="clear">
+      <p class="fl_left">Copyright &copy; 2012 - All Rights Reserved </p>    
+      <p class="fl_right">Website by Kartic Subr & <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+   </footer>
+  </div>
+
+
+
+</body>
+</html>
+
+
+<!--  <ol type="1">        
+            <li>Introduction</li>
+            <li>2D Graphics - Part 1</li>
+            <li>2D Graphics - Part 2</li>
+            <li>3D Graphics - Part 1</li>
+            <li>3D Graphics - Part 2</li>
+            <li>3D Graphics - Part 3</li>
+            <li>3D Graphics - Part 4</li>
+            <li>3D Graphics - Part 5</li>
+            <li>3D Graphics - Part 6</li>
+            <li>3D Graphics - Part 7</li>
+            <li>3D Graphics - Part 8</li>
+            <li>3D Graphics - Part 9</li>
+            <li>3D Graphics - Part 10</li>
+            <li>Related topics - Part 1</li>
+            <li>Related topics - Part 2</li>
+            <li>VR and AR - Part 1</li>
+            <li>VR and AR - Part 2</li>
+            <li>Conclusion</li>
+        </ol>
+-->
